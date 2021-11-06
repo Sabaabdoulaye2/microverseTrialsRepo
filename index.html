@@ -43,23 +43,38 @@
           </select>
         </div>
 
-        <div>
-          <input type="radio" value="red" id="red" name="color" />
-          <label for="red">Red</label>
-          <input type="radio" value="green" id="green" name="color" />
-          <label for="green">Green</label>
-          <input type="radio" value="black" id="black" name="color" />
-          <label for="black">Black</label>
+        <div class="radio">
+          <div>
+            <input type="radio" value="red" id="red" name="color" />
+            <label for="red">Red</label>
+          </div>
+          <div>
+            <input type="radio" value="green" id="green" name="color" />
+            <label for="green">Green</label>
+          </div>
+          <div>
+            <input type="radio" value="black" id="black" name="color" />
+            <label for="black">Black</label>
+          </div>
         </div>
 
-        <div>
-          <input type="checkbox" value="leather" /> Leather Seats <br />
-          <input type="checkbox" value="rims" /> Pimped Rims <br />
+        <div class="checkbox">
+          <div>
+            <input type="checkbox" value="leather" /> Leather Seats <br />
+          </div>
+
+          <div><input type="checkbox" value="rims" /> Pimped Rims <br /></div>
         </div>
 
-        <div>
+        <div class="textarea">
           <label for="comments">Type additional comments:</label>
-          <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Type additional comments"></textarea>
+          <textarea
+            name="comments"
+            id="comments"
+            cols="30"
+            rows="10"
+            placeholder="Type additional comments"
+          ></textarea>
         </div>
 
         <button id="submit">Submit the form</button>
