@@ -37,6 +37,10 @@ select {
   border-style: 1px solid #efefef;
 }
 
+input:hover, select:hover, textarea:hover{
+    border: 1px solid dodgerblue;
+}
+
 .radio {
   display: flex;
   justify-content: space-between;
