@@ -24,17 +24,37 @@
         </div>
         <div>
           <label id="number-label" for="number">Number</label>
-          <input type="number" placeholder="Enter a number" id="number" min="1" max="10" required />
+          <input
+            type="number"
+            placeholder="Enter a number"
+            id="number"
+            min="1"
+            max="10"
+            required
+          />
         </div>
 
         <div>
-          <label for="dropdown"> Choose a car:
-            <select id="dropdown">
-              <option value="m">Mercedes</option>
-              <option value="t">Toyota</option>
-              <option value="f">Ferrari</option>
-            </select>
-        </label>
+          <label for="dropdown"> Choose a car: </label>
+          <select id="dropdown">
+            <option value="m">Mercedes</option>
+            <option value="t">Toyota</option>
+            <option value="f">Ferrari</option>
+          </select>
+        </div>
+
+        <div>
+          <input type="radio" value="red" id="red" name="color" />
+          <label for="red">Red</label>
+          <input type="radio" value="green" id="green" name="color" />
+          <label for="green">Green</label>
+          <input type="radio" value="black" id="black" name="color" />
+          <label for="black">Black</label>
+        </div>
+
+        <div>
+          <input type="checkbox" value="leather" /> Leather Seats <br />
+          <input type="checkbox" value="rims" /> Pimped Rims <br />
         </div>
       </form>
     </main>
