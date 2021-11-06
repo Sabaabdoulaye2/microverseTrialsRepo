@@ -6,7 +6,23 @@ body {
   font-size: 2rem;
   display: flex;
   justify-content: center;
+  box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+}
+
+main {
+    width: 80%;
+}
+
+@media screen and (min-width: 1024px) {
+    main {
+        width: 60%;
+    }
+}
+
+form {
+    margin: 0 auto;
 }
 
 input,
@@ -58,4 +74,25 @@ textarea {
 
 .checkbox {
   margin-bottom: 1rem;
+}
+
+#submit {
+    padding: 2rem 3rem;
+    border-radius: 2rem;
+    outline: none;
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+    width: 100%;
+}
+
+#submit:hover {
+    background-color: crimson;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 732px) {
+    #submit {
+        width: 50%
+    }
 }
