@@ -1,0 +1,24 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+
+input, select {
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+    border-style: 1px solid #efefef;
+}
+
